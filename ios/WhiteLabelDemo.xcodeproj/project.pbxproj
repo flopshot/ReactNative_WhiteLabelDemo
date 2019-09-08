@@ -20,6 +20,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* WhiteLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WhiteLabelDemoTests.m */; };
 		763CF131C218BE4DF206A0A5 /* libPods-WhiteLabelDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9633CD539EDC55633874A78A /* libPods-WhiteLabelDemoTests.a */; };
 		9777C35AF8A92459D361354A /* libPods-WhiteLabelDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B870EE8CF308F9654E7B86 /* libPods-WhiteLabelDemo.a */; };
+		B79D48A123259C8400E0F400 /* WhiteLabelConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B79D48A023259C8400E0F400 /* WhiteLabelConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		9ECE38A023CD8584DD9B529A /* Pods-WhiteLabelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhiteLabelDemo/Pods-WhiteLabelDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A94C28BA0C5EDA6AB2F5C0F7 /* Pods-WhiteLabelDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhiteLabelDemoTests/Pods-WhiteLabelDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B43D2D570857F12BA65C112D /* libPods-WhiteLabelDemo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhiteLabelDemo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79D48A023259C8400E0F400 /* WhiteLabelConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhiteLabelConfig.m; sourceTree = "<group>"; };
+		B79D48A22325A37C00E0F400 /* WhiteLabelConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhiteLabelConfig.h; sourceTree = "<group>"; };
 		BA9DA625B42626E30FBF471C /* Pods-WhiteLabelDemo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelDemo-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhiteLabelDemo-tvOS/Pods-WhiteLabelDemo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		D46C494B8B3B0FD399D26B19 /* Pods-WhiteLabelDemo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelDemo-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhiteLabelDemo-tvOSTests/Pods-WhiteLabelDemo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -132,6 +135,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				B79D48A023259C8400E0F400 /* WhiteLabelConfig.m */,
+				B79D48A22325A37C00E0F400 /* WhiteLabelConfig.h */,
 			);
 			name = WhiteLabelDemo;
 			sourceTree = "<group>";
@@ -291,6 +296,9 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1030;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -307,6 +315,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -528,6 +537,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				B79D48A123259C8400E0F400 /* WhiteLabelConfig.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -625,6 +635,7 @@
 			baseConfigurationReference = 83E1DB09A83DD7A3561C712D /* Pods-WhiteLabelDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				INFOPLIST_FILE = WhiteLabelDemo/Info.plist;
@@ -636,6 +647,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = WhiteLabelDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "WhiteLabelDemo-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -645,6 +660,7 @@
 			baseConfigurationReference = 9ECE38A023CD8584DD9B529A /* Pods-WhiteLabelDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = WhiteLabelDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -655,6 +671,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = WhiteLabelDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "WhiteLabelDemo-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
