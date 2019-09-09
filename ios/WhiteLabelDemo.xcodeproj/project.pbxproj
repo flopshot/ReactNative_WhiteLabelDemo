@@ -10,17 +10,22 @@
 		00E356F31AD99517003FC87E /* WhiteLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WhiteLabelDemoTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		28AC1D9E1ABF7560F83B4432 /* libPods-WhiteLabelDemo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B43D2D570857F12BA65C112D /* libPods-WhiteLabelDemo-tvOS.a */; };
 		2CDCC54A0A21CDCEAF3301CE /* libPods-WhiteLabelDemo-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F06EB7A7A5759C82ED836D /* libPods-WhiteLabelDemo-tvOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* WhiteLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WhiteLabelDemoTests.m */; };
 		763CF131C218BE4DF206A0A5 /* libPods-WhiteLabelDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9633CD539EDC55633874A78A /* libPods-WhiteLabelDemoTests.a */; };
 		9777C35AF8A92459D361354A /* libPods-WhiteLabelDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B870EE8CF308F9654E7B86 /* libPods-WhiteLabelDemo.a */; };
 		B79D48A123259C8400E0F400 /* WhiteLabelConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B79D48A023259C8400E0F400 /* WhiteLabelConfig.m */; };
+		B79D48AB23268A0F00E0F400 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		B79D48AD23268A0F00E0F400 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		B79D48AF23268A0F00E0F400 /* libPods-WhiteLabelDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B870EE8CF308F9654E7B86 /* libPods-WhiteLabelDemo.a */; };
+		B79D48B223268A0F00E0F400 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		B79D48BB2326937900E0F400 /* WhiteLabelConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B79D48BA2326937900E0F400 /* WhiteLabelConfig.m */; };
+		B79D48BD232695FE00E0F400 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79D48BC232695FE00E0F400 /* Images.xcassets */; };
+		B79D48BF2326966000E0F400 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79D48BE2326966000E0F400 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +54,6 @@
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = WhiteLabelDemo/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = WhiteLabelDemo/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WhiteLabelDemo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = WhiteLabelDemo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WhiteLabelDemo/main.m; sourceTree = "<group>"; };
 		153EEF153EDB405EF1F2EE9B /* Pods-WhiteLabelDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhiteLabelDemoTests/Pods-WhiteLabelDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +70,11 @@
 		B43D2D570857F12BA65C112D /* libPods-WhiteLabelDemo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhiteLabelDemo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B79D48A023259C8400E0F400 /* WhiteLabelConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhiteLabelConfig.m; sourceTree = "<group>"; };
 		B79D48A22325A37C00E0F400 /* WhiteLabelConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhiteLabelConfig.h; sourceTree = "<group>"; };
+		B79D48B723268A0F00E0F400 /* GreenMonkeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenMonkeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79D48B823268A0F00E0F400 /* GreenMonkeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = GreenMonkeys.plist; path = /Users/seannajera/ReactNativeProjects/WhiteLabelDemo/ios/GreenMonkeys.plist; sourceTree = "<absolute>"; };
+		B79D48BA2326937900E0F400 /* WhiteLabelConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhiteLabelConfig.m; sourceTree = "<group>"; };
+		B79D48BC232695FE00E0F400 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B79D48BE2326966000E0F400 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BA9DA625B42626E30FBF471C /* Pods-WhiteLabelDemo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelDemo-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhiteLabelDemo-tvOS/Pods-WhiteLabelDemo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		D46C494B8B3B0FD399D26B19 /* Pods-WhiteLabelDemo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelDemo-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhiteLabelDemo-tvOSTests/Pods-WhiteLabelDemo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -105,6 +114,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B79D48AE23268A0F00E0F400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79D48AF23268A0F00E0F400 /* libPods-WhiteLabelDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -128,14 +145,14 @@
 		13B07FAE1A68108700A75B9A /* WhiteLabelDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B79D48B92326904300E0F400 /* GreenMonkeys */,
+				B79D48A5232680B600E0F400 /* PurpleParrots */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				B79D48A023259C8400E0F400 /* WhiteLabelConfig.m */,
 				B79D48A22325A37C00E0F400 /* WhiteLabelConfig.h */,
 			);
 			name = WhiteLabelDemo;
@@ -170,6 +187,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D25E0D8BE4565364D56E46C1 /* Pods */,
+				B79D48B823268A0F00E0F400 /* GreenMonkeys.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -183,8 +201,27 @@
 				00E356EE1AD99517003FC87E /* WhiteLabelDemoTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* WhiteLabelDemo-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* WhiteLabelDemo-tvOSTests.xctest */,
+				B79D48B723268A0F00E0F400 /* GreenMonkeys.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B79D48A5232680B600E0F400 /* PurpleParrots */ = {
+			isa = PBXGroup;
+			children = (
+				B79D48A023259C8400E0F400 /* WhiteLabelConfig.m */,
+				B79D48BE2326966000E0F400 /* Images.xcassets */,
+			);
+			path = PurpleParrots;
+			sourceTree = "<group>";
+		};
+		B79D48B92326904300E0F400 /* GreenMonkeys */ = {
+			isa = PBXGroup;
+			children = (
+				B79D48BA2326937900E0F400 /* WhiteLabelConfig.m */,
+				B79D48BC232695FE00E0F400 /* Images.xcassets */,
+			);
+			path = GreenMonkeys;
 			sourceTree = "<group>";
 		};
 		D25E0D8BE4565364D56E46C1 /* Pods */ = {
@@ -224,9 +261,9 @@
 			productReference = 00E356EE1AD99517003FC87E /* WhiteLabelDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* WhiteLabelDemo */ = {
+		13B07F861A680F5B00A75B9A /* PurpleParrots */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WhiteLabelDemo" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PurpleParrots" */;
 			buildPhases = (
 				4B43AA0CF01C213F627BAA70 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -239,7 +276,7 @@
 			);
 			dependencies = (
 			);
-			name = WhiteLabelDemo;
+			name = PurpleParrots;
 			productName = WhiteLabelDemo;
 			productReference = 13B07F961A680F5B00A75B9A /* WhiteLabelDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -283,6 +320,26 @@
 			productReference = 2D02E4901E0B4A5D006451C7 /* WhiteLabelDemo-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B79D48A723268A0F00E0F400 /* GreenMonkeys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79D48B423268A0F00E0F400 /* Build configuration list for PBXNativeTarget "GreenMonkeys" */;
+			buildPhases = (
+				B79D48A823268A0F00E0F400 /* [CP] Check Pods Manifest.lock */,
+				B79D48A923268A0F00E0F400 /* Start Packager */,
+				B79D48AA23268A0F00E0F400 /* Sources */,
+				B79D48AE23268A0F00E0F400 /* Frameworks */,
+				B79D48B023268A0F00E0F400 /* Resources */,
+				B79D48B323268A0F00E0F400 /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenMonkeys;
+			productName = WhiteLabelDemo;
+			productReference = B79D48B723268A0F00E0F400 /* GreenMonkeys.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -324,10 +381,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* WhiteLabelDemo */,
+				13B07F861A680F5B00A75B9A /* PurpleParrots */,
 				00E356ED1AD99517003FC87E /* WhiteLabelDemoTests */,
 				2D02E47A1E0B4A5D006451C7 /* WhiteLabelDemo-tvOS */,
 				2D02E48F1E0B4A5D006451C7 /* WhiteLabelDemo-tvOSTests */,
+				B79D48A723268A0F00E0F400 /* GreenMonkeys */,
 			);
 		};
 /* End PBXProject section */
@@ -344,8 +402,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				B79D48BF2326966000E0F400 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +411,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +418,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79D48B023268A0F00E0F400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79D48BD232695FE00E0F400 /* Images.xcassets in Resources */,
+				B79D48B223268A0F00E0F400 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +527,61 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B79D48A823268A0F00E0F400 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhiteLabelDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B79D48A923268A0F00E0F400 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B79D48B323268A0F00E0F400 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
 		C427D0A6E810D8A80916821C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -559,12 +680,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B79D48AA23268A0F00E0F400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79D48BB2326937900E0F400 /* WhiteLabelConfig.m in Sources */,
+				B79D48AB23268A0F00E0F400 /* AppDelegate.m in Sources */,
+				B79D48AD23268A0F00E0F400 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* WhiteLabelDemo */;
+			target = 13B07F861A680F5B00A75B9A /* PurpleParrots */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
@@ -645,7 +776,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.WhiteLabelDemo.PurpleParrots;
 				PRODUCT_NAME = WhiteLabelDemo;
 				SWIFT_OBJC_BRIDGING_HEADER = "WhiteLabelDemo-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
@@ -669,7 +800,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.WhiteLabelDemo.PurpleParrots;
 				PRODUCT_NAME = WhiteLabelDemo;
 				SWIFT_OBJC_BRIDGING_HEADER = "WhiteLabelDemo-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
@@ -887,6 +1018,54 @@
 			};
 			name = Release;
 		};
+		B79D48B523268A0F00E0F400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E1DB09A83DD7A3561C712D /* Pods-WhiteLabelDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/GreenMonkeys.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.WhiteLabelDemo.GreenMonkeys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WhiteLabelDemo-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		B79D48B623268A0F00E0F400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ECE38A023CD8584DD9B529A /* Pods-WhiteLabelDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "$(SRCROOT)/GreenMonkeys.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.WhiteLabelDemo.GreenMonkeys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WhiteLabelDemo-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -899,7 +1078,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WhiteLabelDemo" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PurpleParrots" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -931,6 +1110,15 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79D48B423268A0F00E0F400 /* Build configuration list for PBXNativeTarget "GreenMonkeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79D48B523268A0F00E0F400 /* Debug */,
+				B79D48B623268A0F00E0F400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

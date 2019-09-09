@@ -1,4 +1,4 @@
-// WhiteLabelConfig.m
+// WhiteLabelConfig.m for green monkeys
 
 #import "WhiteLabelConfig.h"
 
@@ -11,15 +11,15 @@
   }
   
   RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(getPrimaryColor) {
-    return @"#fdf6e3";
+    return @"#008000";
   }
   
   RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(getPrimaryTextColor) {
-    return @"#657b83";
+    return @"#FFD700";
   }
   
   RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(getGreetingText) {
-    return @"Welcome";
+    return @"Legends of the Hidden Temple Rocks!!!!!!";
   }
-
+  
 @end
