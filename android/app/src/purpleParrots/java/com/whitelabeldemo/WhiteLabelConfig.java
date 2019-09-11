@@ -17,7 +17,7 @@ public class WhiteLabelConfig extends ReactContextBaseJavaModule {
         this.appName = reactContext
                 .getApplicationContext()
                 .getResources()
-                .getString(R.string.app_name);
+                .getString(R.string.white_label_app_name);
     }
 
 
@@ -36,18 +36,18 @@ public class WhiteLabelConfig extends ReactContextBaseJavaModule {
     @Nonnull
     @ReactMethod(isBlockingSynchronousMethod = true)
     public String getPrimaryColor() {
-        return "#fdf6e3";
+        return "#800080";
     }
 
     @Nonnull
     @ReactMethod(isBlockingSynchronousMethod = true)
     public String getPrimaryTextColor() {
-        return "#657b83";
+        return "#FFD700";
     }
 
     @Nonnull
     @ReactMethod(isBlockingSynchronousMethod = true)
     public String getGreetingText() {
-        return "Welcome";
+        return "Legends of the Hidden Temple Rules!!!!!";
     }
 }

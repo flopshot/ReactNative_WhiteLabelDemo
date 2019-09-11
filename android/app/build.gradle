@@ -162,6 +162,16 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
+
+    flavorDimensions "whitelabel"
+    productFlavors {
+        purpleParrots {
+            dimension "whitelabel"
+            applicationIdSuffix ".purpleparrots"
+            resValue "string", "white_label_app_name", "Purple Parrots"
+        }
+    }
+
     // applicationVariants are e.g. debug, release
     applicationVariants.all { variant ->
         variant.outputs.each { output ->
